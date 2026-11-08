@@ -72,7 +72,7 @@ PluginComponent {
     }
 
     // Propiedades del botón de DMS
-    ccWidgetIcon: connected ? "shield" : "shield_off"
+    ccWidgetIcon: "shield"
 
     ccWidgetPrimaryText: "Cloudflare WARP"
 
