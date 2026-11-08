@@ -6,7 +6,7 @@
     "author": "Local",
     "type": "widget",
     "capabilities": ["control-center"],
-    "component": "./WarpWidget.qml",
+    "component": "./warpWidget.qml",
     "icon": "shield",
     "requires_dms": ">=1.6.0",
     "requires": ["warp-cli"]
