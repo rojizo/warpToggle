@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if warp-cli disconnect; then
+    pkexec systemctl stop warp-svc.service &&
+        notify-send "Cloudflare WARP" "Desconectado"
+else
+    notify-send "Cloudflare WARP" "Error al desconectar"
+    exit 1
+fi

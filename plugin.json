@@ -1,0 +1,13 @@
+{
+    "id": "warpToggle",
+    "name": "Cloudflare WARP",
+    "description": "Control de conexión Cloudflare WARP",
+    "version": "1.0.0",
+    "author": "Local",
+    "type": "widget",
+    "capabilities": ["control-center"],
+    "component": "./WarpWidget.qml",
+    "icon": "shield",
+    "requires_dms": ">=1.6.0",
+    "requires": ["warp-cli"]
+}
